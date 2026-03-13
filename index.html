@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martina Banchi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">Martina Banchi</div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About me</a>
+        <a href="places.html">Places I've lived in</a>
+        <a href="nuclear.html">Nuclear power</a>
+        <a href="quantum.html">Quantum computing</a>
+        <a href="skiing.html">Skiing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-layout">
+          <div class="hero-photo-wrap">
+            <img src="IMG_7564.JPG" alt="Portrait of Martina Banchi" class="hero-photo">
+          </div>
+          <div class="hero-text">
+            <h1>Hi, I'm Martina.</h1>
+            <p class="hero-subtitle">
+              Nuclear physics, life across different cities, years spent on skis.
+            </p>
+            <div class="hero-actions">
+              <a href="about.html" class="btn primary">About me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-grid container">
+      <article class="card">
+        <h2>Places I've lived in</h2>
+        <p>
+          Reflections on life in Turin, Valencia, Sevilla, and Padua: what I loved, 
+          what surprised me, and what I learned.
+        </p>
+        <a href="places.html" class="card-link">Explore the places →</a>
+      </article>
+
+      <article class="card">
+        <h2>Nuclear power</h2>
+        <p>
+          A growing collection of articles where I organize my thoughts and learning 
+          about nuclear energy.
+        </p>
+        <a href="nuclear.html" class="card-link">Read the articles →</a>
+      </article>
+
+      <article class="card">
+        <h2>Skiing & simulations</h2>
+        <p>
+          My favorite skiing videos and interactive simulations about fundamental 
+          skiing movements.
+        </p>
+        <a href="skiing.html" class="card-link">See the skiing page →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Martina Banchi</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

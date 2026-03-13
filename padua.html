@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padua · Martina Banchi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <img src="IMG_7564.JPG" alt="Portrait of Martina Banchi" class="brand-photo">
+        <div class="logo">Martina Banchi</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="places.html" class="active">Places I've lived in</a>
+        <a href="nuclear.html">Nuclear power</a>
+        <a href="quantum.html">Quantum computing</a>
+        <a href="skiing.html">Skiing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Padua</h1>
+    <p class="lead">
+      Replace this with your own reflections about living in Padua.
+    </p>
+
+    <section class="text-block">
+      <h2>Daily rhythm</h2>
+      <p>
+        You can write here about your everyday routine in Padua, university life,
+        and the places you associate most with the city.
+      </p>
+    </section>
+
+    <section class="text-block">
+      <h2>What stayed with me</h2>
+      <p>
+        Use this space to describe what you carry with you from Padua: friendships,
+        lessons learned, or moments that defined your time there.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Martina Banchi</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

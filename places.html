@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places I've lived · Martina Banchi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <img src="IMG_7564.JPG" alt="Portrait of Martina Banchi" class="brand-photo">
+        <div class="logo">Martina Banchi</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="places.html" class="active">Places I've lived in</a>
+        <a href="nuclear.html">Nuclear power</a>
+        <a href="quantum.html">Quantum computing</a>
+        <a href="skiing.html">Skiing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Places I've lived</h1>
+    <p class="lead">
+      Here I collect reflections on the cities where I have lived. Click on a city to open a
+      dedicated page with more detailed thoughts and memories.
+    </p>
+
+    <section class="text-block">
+      <ul class="places-list">
+        <li><a href="turin.html">Turin</a></li>
+        <li><a href="valencia.html">Valencia</a></li>
+        <li><a href="sevilla.html">Sevilla</a></li>
+        <li><a href="padua.html">Padua</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Martina Banchi</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
