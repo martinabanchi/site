@@ -222,12 +222,52 @@ a {
   color: #e5e7eb;
 }
 
+.page-back {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+
+.page-back a {
+  color: #93c5fd;
+}
+
 .text-block {
   margin-bottom: 2rem;
 }
 
 .text-block h2 {
   margin-bottom: 0.4rem;
+}
+
+.article-hashtag {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #93c5fd;
+  margin: 0 0 1.5rem;
+  word-break: break-word;
+}
+
+.article-content ul {
+  margin: 0.75rem 0 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.article-content li {
+  margin-bottom: 0.35rem;
+}
+
+.article-content h2:not(:first-of-type) {
+  margin-top: 1.75rem;
+}
+
+.article-nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(249, 250, 251, 0.12);
 }
 
 .place {
