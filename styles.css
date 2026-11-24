@@ -239,6 +239,34 @@ a {
   margin-bottom: 0.4rem;
 }
 
+.experience-block {
+  margin-top: 2rem;
+}
+
+.text-block .experience-block + .experience-block {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(249, 250, 251, 0.1);
+}
+
+.experience-photo {
+  margin: 1rem 0 1.25rem;
+}
+
+.experience-photo img {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(249, 250, 251, 0.18);
+  display: block;
+}
+
+.experience-photo figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.88rem;
+  color: #cbd5e1;
+}
+
 .article-hashtag {
   font-size: 0.95rem;
   font-weight: 600;
